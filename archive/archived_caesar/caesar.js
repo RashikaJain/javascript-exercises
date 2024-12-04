@@ -8,7 +8,7 @@ const caesar = function (text, shift) {
     let result = "";
 
     for (let char of text) {
-        // Check if character is uppercase
+        // Check if character is uppercasess
         if (char >= "A" && char <= "Z") {
             let newCharCode = char.charCodeAt(0) + shift;
             if (newCharCode > 90) {
